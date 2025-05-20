@@ -50,7 +50,7 @@ const Header = ({ theme, toggleTheme }: HeaderProps) => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="text-2xl font-bold">
             <a href="#home" className="text-blue-600 dark:text-blue-400">
-              Portfolio
+              Himanshu Kushwaha
             </a>
           </div>
 

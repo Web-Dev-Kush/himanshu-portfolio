@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <a href="#home" className="text-xl font-bold text-blue-600 dark:text-blue-400">
-              Portfolio
+              Himanshu Kushwaha
             </a>
           </div>
           
@@ -83,7 +83,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 text-center">
           <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center justify-center">
-            © {currentYear} My Portfolio. Made with 
+            © {currentYear} Himanshu Kushwaha. Made with 
             <Heart size={16} className="mx-1 text-red-500" /> 
             All rights reserved.
           </p>

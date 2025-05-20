@@ -3,6 +3,7 @@ import { Code, Briefcase, GraduationCap } from 'lucide-react';
 import Section from './ui/Section';
 import Button from './ui/Button';
 import useScrollReveal from '../hooks/useScrollReveal';
+import profile from '../images/profile.png';
 
 const About = () => {
   const contentRef = useScrollReveal();
@@ -21,7 +22,7 @@ const About = () => {
         >
           <div className="aspect-square overflow-hidden rounded-xl border-4 border-white dark:border-gray-800 shadow-xl">
             <img
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src={profile}
               alt="Profile"
               className="w-full h-full object-cover"
             />

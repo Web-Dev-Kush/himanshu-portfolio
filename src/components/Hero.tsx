@@ -25,7 +25,7 @@ const Hero = () => {
             ref={titleRef as React.RefObject<HTMLHeadingElement>}
             className="opacity-0 text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400"
           >
-            Full-Stack Developer & UI/UX Designer
+            Full-Stack Developer
           </h1>
           
           <p
@@ -57,7 +57,7 @@ const Hero = () => {
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="mailto:example@example.com" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+            <a href="mailto:webdevkush23@gmail.com" className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
               <Mail size={24} />
               <span className="sr-only">Email</span>
             </a>
